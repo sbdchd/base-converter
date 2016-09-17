@@ -1,0 +1,27 @@
+doctype html
+html(lang=en)
+  head
+    meta(charset='utf-8')
+    meta(http-equiv='X-UA-Compatible' content='IE=edge')
+    meta(name='viewport' content='width=device-width, initial-scale=1')
+    title Base Conversions
+    meta(name='description' content='Convert between hex, binary, octal, and decimal')
+    link(rel='stylesheet' href='dist/main.css')
+
+  body
+
+    h1 Base Conversions
+
+    label(for='binary') Binary
+    input#binary(type='number' placeholder='1100111100000001')
+
+    label(for='decimal') Decimal
+    input#decimal(type='number' placeholder='52993')
+
+    label(for='hex') Hex
+    input#hex(type='text' placeholder='CF01')
+
+    label(for='octal') Octal
+    input#octal(type='number' placeholder='147401')
+
+  script(src="dist/index.js")
