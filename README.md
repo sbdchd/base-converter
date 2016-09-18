@@ -2,6 +2,10 @@
 
 > A simple reactive [website](http://dignam.xyz/base-converter/) for your base conversions
 
+## Why?
+
+To test reactive design with vanilla javascript.
+
 ## Usage
 
 Install
