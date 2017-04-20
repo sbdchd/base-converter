@@ -6,28 +6,8 @@
 
 To test reactive design with vanilla javascript.
 
-## Usage
-
-Install
+## Dev
 
 ```bash
-git clone https://github.com/sbdchd/base-converter && cd base-converter
-npm install
-```
-
-Build
-
-```bash
-grunt clean && grunt
-```
-
-Develop
-
-```bash
-grunt watch
-```
-
-```bash
-# start an http server in a different shell
 python3 -m http.server
 ```
