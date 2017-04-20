@@ -1,1 +1,82 @@
-<!DOCTYPE html><html><head><meta charset="utf-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Base Conversions</title><meta name="description" content="Convert between hex, binary, octal, and decimal"><link rel="stylesheet" href="dist/main.css"></head><body><h1>Base Conversions</h1><label for="binary">Binary</label><input id="binary" type="number" placeholder="1100111100000001"><label for="decimal">Decimal</label><input id="decimal" type="number" placeholder="52993"><label for="hex">Hex</label><input id="hex" type="text" placeholder="CF01"><label for="octal">Octal</label><input id="octal" type="number" placeholder="147401"></body><script src="dist/index.js"></script></html>
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Base Conversions</title>
+  <meta name="description" content="Convert between hex, binary, octal, and decimal">
+  <style>
+    html {
+      color: #444;
+      font-family: georgia, serif;
+      font-size: 18px;
+      line-height: 1.6;
+    }
+
+    body {
+      margin: 10px;
+    }
+
+    h1 {
+      margin: 0;
+      line-height: 1.2;
+      font-style: italic;
+      display: flex;
+      justify-content: center;
+    }
+
+    label {
+      margin-left: .5rem;
+      margin-right: .5rem;
+    }
+
+    main {
+      display: flex;
+      justify-content: center;
+      font-size: 2rem;
+    }
+
+    input {
+      font-size: 1.5rem;
+    }
+
+    ul {
+      list-style-type: none;
+      padding: 0;
+      margin: 0;
+    }
+  </style>
+</head>
+
+<body>
+  <h1>Base Conversions</h1>
+    <main>
+      <ul>
+      <li>
+        <label for="binary">Binary
+          <input id="binary" type="number" placeholder="1100111100000001">
+        </label>
+      </li>
+      <li>
+        <label for="decimal">Decimal
+          <input id="decimal" type="number" placeholder="52993">
+        </label>
+      </li>
+      <li>
+        <label for="hex">Hex
+        <input id="hex" type="text" placeholder="CF01">
+      </label>
+      </li>
+      <li>
+        <label for="octal">Octal
+        <input id="octal" type="number" placeholder="147401">
+      </label>
+      </li>
+    </ul>
+    </main>
+  <script src="index.js"></script>
+</body>
+
+</html>
